@@ -1,0 +1,11 @@
+Package: libkrw0-taurine
+Author: rootfs
+Maintainer: @DEB_MAINTAINER@
+Architecture: @DEB_ARCH@
+Version: @DEB_LIBKRW_TAURINE_V@
+Provides: libkrw0-plugin
+Depends: firmware (>= 14.0), firmware (<<15.0), libkernrw0
+Section: Libraries
+Priority: standard
+Homepage: https://github.com/R00tFS/libkrw-libkernrw
+Description: Plugin for libkrw to support taurine (Shared Library)
